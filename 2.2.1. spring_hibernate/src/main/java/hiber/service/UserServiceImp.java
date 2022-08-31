@@ -13,6 +13,7 @@ import java.util.List;
 public class UserServiceImp implements UserService {
 
    private UserDao userDao;
+   
    @Autowired
    public void setUser(UserDao userDao){
       this.userDao = userDao;
